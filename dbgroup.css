@@ -1,0 +1,152 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin-bottom: .5em;
+}
+
+#headerbox {
+  display: block;
+  overflow: auto;
+  margin-bottom: 5px;
+}
+
+#head {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 24pt;
+  float: left;
+}
+
+.boldtext {
+  font-weight: 500 !important;
+}
+
+#bio {
+  background: #EEE;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+#bio p {
+  margin-top: 0pt;
+}
+
+#bio p:last-child {
+  margin-bottom: 0pt;
+}
+
+#logobox {
+  display: block;
+  margin-top: 1em !important;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 500px;
+}
+
+.center {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 6pt;
+  padding-right: 6pt;
+  max-width: 700px;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.triplelist {
+  margin-left: -19px;
+  list-style-position: inside;
+  align: left;
+}
+
+@media screen and (min-width: 400px) {
+  .triplelist {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .triplelist {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+  }
+}
+
+img#berkeleylogo {
+  float: right;
+  height: 48px;
+  margin-right: 5px;
+}
+
+#faculty-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.faculty {
+  margin: 8pt;
+  text-align: center;
+}
+
+.faculty-headshot-box {
+  height: 200px;
+  width: 160px;
+}
+
+.covered-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contained-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+a:link, a:visited {color: #222; text-decoration: none; }
+a:active, a:hover {color: #444; text-decoration: none; }
+
+.university-logo-slide {
+  text-align: center;
+}
+
+.carousel-logo-box {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.university-logo-box {
+  height: 75px;
+  width: 75px;
+}
+
+.company-logo-box {
+  height: 75px;
+  width: 150px;
+}
+
+.startup-logo-box {
+  height: 75px;
+  width: 150px;
+}
