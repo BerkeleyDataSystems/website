@@ -122,8 +122,17 @@ img#berkeleylogo {
   object-fit: contain;
 }
 
-a:link, a:visited {color: #222; text-decoration: none; }
-a:active, a:hover {color: #444; text-decoration: none; }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  text-decoration: underline;
+}
 
 .university-logo-slide {
   text-align: center;
